@@ -1,6 +1,6 @@
 .hero-container{
     background: url(https://www.doctorcare.ca/wp-content/uploads/2021/05/header-homepage-cropped.png) no-repeat top  left;
-    box-shadow:inset 0 0 0 2000px rgba(195, 195, 195, 0.7);
+    box-shadow:inset 0 0 0 2000px rgba(181, 180, 203, 0.496);
     height: 100vh;
     color: rgb(18, 17, 17);
     display: flex;
