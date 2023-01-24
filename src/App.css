@@ -2,12 +2,16 @@
 *{
     box-sizing: border-box;
 }
-
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 .App{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0 ;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -17,11 +21,53 @@ h2{
     letter-spacing: 0.6px;
     color: #4C84C3;
 }
+h3{
+    color:"#000";
+}
 
 p{
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.6px;
     line-height: 1.5;
-    color: #4C84C3;
+    color: #0f0f10;
+}
+
+.darktheme .navbar{
+    background-color: #000;
+    color: #fff;
+}
+.darktheme .nav-links ul a{
+    color: #fff;
+}
+
+.darktheme .nav-links.mobile ul{
+    color: #fff;
+    background-color: #000;
+}
+
+.darktheme .nav-links.mobile ul a{
+    color: #fff;
+}
+
+.darktheme .menu-icon{
+    color: #fff;
+}
+
+.darktheme h3{
+    color: #fff;
+}
+.darktheme p{
+    color: rgb(181, 179, 179);
+}
+
+
+.darktheme h2{
+    background-color: #000;
+    color: #fff;
+}
+
+.darktheme > div{
+    background-color: #000;
+    color: #fff;
 }
