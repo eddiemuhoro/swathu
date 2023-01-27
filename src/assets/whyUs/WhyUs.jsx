@@ -19,6 +19,9 @@ const WhyUs = () => {
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna gravida id lobortis eget tristique ultrices feugiat neque elit. Amet imperdiet donec cras habitant ultrices sed in mi scelerisque. Maecenas tempus amet aenean in eu ullamcorper viverra pulvinar. Nibh et elementum parturient viverra in. In morbi vehicula dignissim pharetra, tristique. 
                 </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna gravida id lobortis eget tristique ultrices feugiat neque elit. Amet imperdiet donec cras habitant ultrices sed in mi scelerisque. Maecenas tempus amet aenean in eu ullamcorper viverra pulvinar. Nibh et elementum parturient viverra in. In morbi vehicula dignissim pharetra, tristique. 
+                </p>
             </section>
         </div>
     </div>

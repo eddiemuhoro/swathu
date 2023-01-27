@@ -81,9 +81,13 @@ const Speciality = () => {
                 ))
             }
 
-            <button onClick={handleShowMore} >
-            {showMore ? 'Show More' : 'Show Less'}
-            </button>
+          
+        </div>
+        <div style={{display:'flex',justifyContent:"center", alignItems:'center'}}>
+
+            <button  onClick={handleShowMore} >
+                {showMore ? 'Show More' : 'Show Less'}
+                </button>
         </div>
       
     </div>

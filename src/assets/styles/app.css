@@ -1,0 +1,46 @@
+.app-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image : url(https://firebasestorage.googleapis.com/v0/b/fir-api-7421d.appspot.com/o/test%2FGroup%203.png?alt=media&token=dc8c2e5c-e4ba-43f3-bdca-fa4e86e76ec5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.buttons img:nth-child(1):hover{
+    transform : translate(-10%, 5%) rotate(8deg);
+    transition: .2s ease-in-out;
+}
+
+.buttons img:nth-child(2):hover{
+    transform : translate(10%, 5%) rotate(-8deg);
+    transition: .2s ease-in-out;
+
+}
+.dark h2{
+    color: rgb(37, 36, 36);
+    background-color: transparent;
+}
+.dark p{
+    color: rgb(37, 36, 36);
+}
+
+@media (max-width:500px) {
+    .app-btn{
+        background-image: none;
+        background-color: aliceblue;
+        width: 100%;
+    }
+    .app-btn .image{
+        display: none;
+    }
+    .app-btn .why-text{
+        width: 100%;
+    }
+}

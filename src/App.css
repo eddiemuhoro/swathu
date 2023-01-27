@@ -16,7 +16,6 @@
 }
 
 h2{
-    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 0.6px;
     color: #4C84C3;
@@ -31,6 +30,10 @@ p{
     letter-spacing: 0.6px;
     line-height: 1.5;
     color: #0f0f10;
+}
+
+.whitethem p:hover{
+    color: #fafafa;
 }
 
 .darktheme .navbar{
