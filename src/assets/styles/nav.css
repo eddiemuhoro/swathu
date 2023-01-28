@@ -108,7 +108,7 @@
       align-items: center;
       position: absolute;
       text-align: center;
-     z-index: 999;
+      z-index: 999;
       top: 60px;
       right: -0;
       background-color: #fff;
@@ -117,6 +117,8 @@
       margin-right: 0;
       padding: 0;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: 1s;
+
     }
     .nav-links.mobile ul a{
       padding: 20px 0;
